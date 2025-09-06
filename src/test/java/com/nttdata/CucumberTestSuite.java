@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
+        glue = {"com.nttdata"},
         features = "classpath:features",
         tags = "@pruebaWorld"   //  ==> Definir el @tag  a ejecutar
 )
