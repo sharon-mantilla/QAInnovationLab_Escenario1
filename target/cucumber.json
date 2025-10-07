@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-10-07T01:35:25.942Z",
+        "line": 12,
+        "name": "Crear y consultar una orden en la tienda",
+        "description": "",
+        "id": "store-api---crear-y-consultar-orden;crear-y-consultar-una-orden-en-la-tienda;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5983172200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que envío una solicitud para crear una orden con:",
+            "match": {
+              "location": "com.nttdata.example.StoreStepDefinitions.queEnvioUnaSolicitudParaCrearUnaOrdenCon(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "petId",
+                  "quantity",
+                  "status"
+                ]
+              },
+              {
+                "cells": [
+                  "10",
+                  "5",
+                  "1",
+                  "placed"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 562835000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "consulto la orden con el ID 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 28
+                }
+              ],
+              "location": "com.nttdata.example.StoreStepDefinitions.consultoLaOrdenConElID(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107698900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "la respuesta debe tener status 200 y los datos deben coincidir",
+            "match": {
+              "location": "com.nttdata.example.StoreStepDefinitions.validarDatosOrden()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-10-07T01:35:33.260Z",
+        "line": 13,
+        "name": "Crear y consultar una orden en la tienda",
+        "description": "",
+        "id": "store-api---crear-y-consultar-orden;crear-y-consultar-una-orden-en-la-tienda;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 643155600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que envío una solicitud para crear una orden con:",
+            "match": {
+              "location": "com.nttdata.example.StoreStepDefinitions.queEnvioUnaSolicitudParaCrearUnaOrdenCon(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "petId",
+                  "quantity",
+                  "status"
+                ]
+              },
+              {
+                "cells": [
+                  "11",
+                  "7",
+                  "2",
+                  "approved"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533147800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "consulto la orden con el ID 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 28
+                }
+              ],
+              "location": "com.nttdata.example.StoreStepDefinitions.consultoLaOrdenConElID(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80691300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "la respuesta debe tener status 200 y los datos deben coincidir",
+            "match": {
+              "location": "com.nttdata.example.StoreStepDefinitions.validarDatosOrden()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store API - Crear y consultar orden",
+    "description": "",
+    "id": "store-api---crear-y-consultar-orden",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/store/store.feature",
+    "tags": []
+  }
+]

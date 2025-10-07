@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Crear usuario PetStore
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.534 s - in Crear usuario PetStore

@@ -1,0 +1,9 @@
+com\nttdata\CucumberTestSuite.class
+com\nttdata\model\Articulo.class
+com\nttdata\steps\ArticuloStep.class
+com\nttdata\example\RunnerTest.class
+com\nttdata\Hooks.class
+com\nttdata\steps\CrearUsuario.class
+com\nttdata\example\StoreStepDefinitions.class
+com\nttdata\glue\CrearUsuarioStepsDefs.class
+com\nttdata\glue\ArticuloStepDef.class
